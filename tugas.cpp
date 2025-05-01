@@ -139,3 +139,12 @@ class Segitiga{
     }
 
 };
+
+int main ()
+{
+Segitiga sg;
+
+   sg.inputData();
+   sg.outputData();
+   return 0;   
+}
