@@ -30,7 +30,8 @@ class Segitiga{
             cout << "3. keluar" << endl;
             cout << "Masukkan Pilihan : " << endl;
             cin >> pilihan;
-    
+
+            //Menggunakan Looping dan Switch Case
             switch (pilihan)
             {
             case 1 :
