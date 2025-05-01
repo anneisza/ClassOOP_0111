@@ -12,4 +12,11 @@ class Segitiga{
     {
         return z * 3; 
     }
+
+    public:
+    int pilihan;
+    int alassg, tinggisg, sisisg;
+    bool HitungLuasTerhitung, HitungKelilingTerhitung;
+   
+    Segitiga () : HitungLuasTerhitung(false), HitungKelilingTerhitung(false){}
 };
