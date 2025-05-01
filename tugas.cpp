@@ -102,4 +102,39 @@ class Segitiga{
     
     }
 
+    void outputData()
+    {
+        if(pilihan == 3)
+        {
+            if (!HitungLuasTerhitung && !HitungKelilingTerhitung)
+                return;
+
+            cout << "=============Hasil Hitung Luas dan Keliling Segitiga=============" << endl;
+            cout << endl;
+
+            if(HitungLuasTerhitung)
+                cout << "Luas Segitiga ="<< HitungLuasSegitiga(alassg, tinggisg)<<endl;
+
+            if(HitungKelilingTerhitung)
+                cout << "Keliling Segitiga ="<< HitungKelilingSegitiga(sisisg)<<endl;
+        
+            
+        }
+
+        else
+
+        {
+            cout << "=============Hasil Hitung Luas dan Keliling Segitiga=============" << endl;
+            cout << endl;
+
+            if(pilihan == 1)
+                cout << "Luas Segitiga =" << HitungLuasSegitiga(alassg, tinggisg)<<endl;
+            
+            else if (pilihan == 2)
+                cout << "Keliling Segitiga =" <<HitungKelilingSegitiga(sisisg)<<endl;
+
+        }
+   
+    }
+
 };
