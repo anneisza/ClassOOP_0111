@@ -10,6 +10,6 @@ class Segitiga{
 
     float HitungKelilingSegitiga(float z)
     {
-        return z + z + z; 
+        return z * 3; 
     }
 };
